@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  color:white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+h1,h2,h3{
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+h1{
+  /* text-align: center; */
+  letter-spacing: 4px;
+}
+h3{
+  margin-top:10px;
+  margin-bottom:0px;
+}
+a{
+  color:green;
+}
+a:visited{
+  color:green;
+}
+ul{
+  padding:0px;
+  margin:0px;
+  margin-left:20px;
+}
+#artist-statement{
+  width:700px;
+  letter-spacing:0.2px;
+}
+#cv{
+  font-size:20px;
+}
+#back{
+  display: block;
+  margin-top:40px;
+}
