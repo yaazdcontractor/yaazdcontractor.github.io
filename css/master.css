@@ -3,29 +3,42 @@ body{
   color:white;
   font-family: sans-serif;
   font-weight: lighter;
+  background-image:url("https://en.wikipedia.org/wiki/Ochsenheimeria_taurella#/media/File:Ypsolophidae_-_Ochsenheimeria_taurella_(female).JPG");
+  margin:0;
+  padding:0;
 }
 h1,h2,h3{
   letter-spacing: 2px;
   font-weight: lighter;
 }
 h1{
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 4px;
+  text-decoration: none;
+}
+.yc{
+    text-decoration:none;
+    color:white;
 }
 h3{
   margin-top:10px;
   margin-bottom:0px;
 }
 a{
-  color:green;
+  /* color:green; */
 }
 a:visited{
-  color:green;
+  color:white;
+  /* color:green; */
 }
 ul{
   padding:0px;
   margin:0px;
   margin-left:20px;
+}
+
+#header{
+  text-align: center;
 }
 #artist-statement{
   width:700px;
@@ -37,4 +50,78 @@ ul{
 #back{
   display: block;
   margin-top:40px;
+}
+#content{
+  /* margin-left: 40px; */
+  margin-left: 60px;
+}
+
+/* #workBtn{
+  color:green;
+} */
+#work{
+  transition: all 1s ease;
+}
+#work div{
+  /* display: none; */
+  /* display:none; */
+  padding: 5px 26px;
+  background-color:red;
+  /* text-align: left; */
+}
+#work li:hover{
+    background-color: blue;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+ul {
+}
+li {
+  /* float: left; */
+  display: inline;
+  text-align: center;
+}
+li a, workBtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px 26px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: block;
+  position: absolute;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+.dropdown-content a,{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.p5Canvas{
+  position: absolute;
+  bottom:0px;
+  z-index: -1;
 }

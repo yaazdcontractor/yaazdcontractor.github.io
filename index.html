@@ -4,11 +4,50 @@
     <meta charset="utf-8">
     <title>Yaazd Contractor</title>
     <link rel="stylesheet" href="/css/master.css">
+    <script src="js/p5.min.js"></script>
   </head>
   <body>
-    <h1>Yaazd Contractor</h1>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="work.html">Work</a>
+    <div id="header">
+    <a class="yc" href="index.html"><h1 >Yaazd Contractor</h1></a>
+    <ul class="nav">
+      <!-- <li class="dropdown"><a id="workBtn" href="javascript:toggle()">Work</a> -->
+        <div id="work" class="dropdown-content">
+          <div href="javascript:toggleDigital()">Digital</div>
+          <div href="javascript:togglePhysical()">Physical</div>
+        </div>
+      </li>
+      <li><a href="Work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- <div id="work">
+      <div>Digital</div><div>Physical</div>
+    </div> -->
+    </div>
+
+
+    <!-- <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Work</a>
+        <div class="dropdown-meta">
+          <a href="javascript:void(0)" class="dropbtn2">Digital</a>
+            <div class="dropdown-content2">
+              <a href="#">Digi 1</a>
+              <a href="#">Digi 2</a>
+              <a href="#">Digi 3</a>
+            </div>
+          <a href="javascript:void(0)" class="dropbtn2">Physical</a>
+            <div class="dropdown-content2">
+              <a href="#">Physi 1</a>
+              <a href="#">Physi 2</a>
+              <a href="#">Physi 3</a>
+            </div>
+        </div>
+      </li>
+    </ul> -->
+    <script src="js/work.js"></script>
+    <script src="js/noisewave.js"></script>
   </body>
 </html>
