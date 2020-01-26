@@ -59,6 +59,7 @@ th{
 #back{
   display: block;
   margin-top:40px;
+  margin-bottom:40px;
   /* display: inline-block; */
   width:100px;
   transition: all 1s ease;
@@ -94,12 +95,48 @@ th{
 }
 #content{
   mix-blend-mode: exclusion;
+  /* text-align: center; */
 }
+
+#work-container{
+  width:600px;
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:60px;
+}
+.work-section-title{
+  text-decoration: underline;
+  font-style:italic;
+  /* font-size: 150%; */
+}
+#work-container a{
+  text-decoration: none;
+  color:rgb(0,255,0);
+  display:block;
+  width:auto;
+  margin:2px;
+  transition: all 0.25s ease;
+}
+#work-container a:visited{
+  color:white;
+}
+#work-container a:hover{
+  background-color: blue;
+}
+
+.work-section{
+  height:500px;
+  line-height: 27px;
+  /* background-color: red; */
+}
+
 .bottom-text{
   transform: rotate(180deg);
   position:relative;
   bottom: 10px;
-  color:green;
+  color:rgb(0,255,0);
   z-index: -1;
 
 }
@@ -113,8 +150,17 @@ th{
 
 
 
+.art-label{
+  font-style:italic;
+  width:800px;
+}
+.materials{
+  font-style: normal;
+}
 
-
+.drawing{
+  margin-bottom:80px;
+}
 
 li {
   /* float: left; */
