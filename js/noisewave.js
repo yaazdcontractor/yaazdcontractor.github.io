@@ -18,7 +18,7 @@ function draw() {
   // let xoff = yoff; // Option #2: 1D Noise
 
   // Iterate over horizontal pixels
-  for (let x = 0; x <= width; x += 1) {
+  for (let x = 0; x <= width; x += 5) {
     // Calculate a y value according to noise, map to
 
     // Option #1: 2D Noise
