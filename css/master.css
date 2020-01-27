@@ -164,6 +164,18 @@ th{
   margin-bottom:80px;
 }
 
+.image-display img{
+  width:290px;
+  transition: all 0.2s;
+}
+.image-display img:hover{
+  width:400px;
+}
+#house-writeup{
+  width:1000px;
+  margin-bottom:30px;
+}
+
 li {
   /* float: left; */
   display: inline;
