@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   j+=0.015;
-  background(255);
+  background(0);
 
   fill(color(0,0,255));
   // We are going to draw a polygon out of the wave points

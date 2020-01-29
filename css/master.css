@@ -1,12 +1,21 @@
 body{
-  background-color: black;
-  color:white;
+  background-color: white;
+  color:black;
   font-family: 'Roboto Mono', sans-serif;
   font-weight: lighter;
   background-image:url("https://en.wikipedia.org/wiki/Ochsenheimeria_taurella#/media/File:Ypsolophidae_-_Ochsenheimeria_taurella_(female).JPG");
   margin:0;
   padding:0;
-
+}
+.digitalBody{
+  background-color: black;
+  color:white;
+}
+.digitalBody h1, .digitalBody a{
+  color:white;
+}
+.home{
+  background-color: white;
 }
 h1,h2,h3{
   letter-spacing: 2px;
@@ -16,10 +25,11 @@ h1{
   text-align: center;
   letter-spacing: 4px;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .yc{
     text-decoration:none;
-    color:white;
+    /* color:white; */
 }
 h3{
   margin-top:10px;
@@ -27,10 +37,10 @@ h3{
 }
 a{
   /* color:green; */
-  color:white;
+  color:black;
 }
 a:visited{
-  color:white;
+  color:black;
   /* color:green; */
 }
 ul{
@@ -57,20 +67,30 @@ th{
 #cv{
   font-size:20px;
 }
-#back{
+.back{
   display: block;
   margin-top:40px;
   margin-bottom:40px;
-  /* display: inline-block; */
+  display: inline-block;
   width:100px;
   transition: all 1s ease;
+  color:blue;
 }
-#back:hover{
+.back:hover{
   background-color: #333;
 }
+.back:visited{
+  color:blue;
+}
+
+.floatright{
+  float:right;
+}
+
 #content{
   /* margin-left: 40px; */
   margin-left: 60px;
+  /* mix-blend-mode: exclusion; */
 }
 
 /* #workBtn{
@@ -94,12 +114,10 @@ th{
   bottom:20px;
   color:black;
 }
-#content{
-  mix-blend-mode: exclusion;
-  /* text-align: center; */
-}
+
 
 #work-container{
+  transition: all 0.47s ease;
   width:600px;
   margin:auto;
   display:flex;
@@ -114,14 +132,15 @@ th{
 }
 #work-container a{
   text-decoration: none;
-  color:rgb(0,255,0);
+  /* color:rgb(0,255,0); */
+  color:black;
   display:block;
   width:auto;
   margin:2px;
   transition: all 0.25s ease;
 }
 #work-container a:visited{
-  color:white;
+  color:black;
 }
 #work-container a:hover{
   background-color: blue;
@@ -139,7 +158,8 @@ th{
   bottom: 10px;
   color:rgb(0,255,0);
   z-index: -1;
-  height:400px;
+  /* height:400px; */
+  height:350px;
 
 }
 .nav{
@@ -147,7 +167,7 @@ th{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 
@@ -183,7 +203,7 @@ li {
 }
 li a, workBtn {
   display: inline-block;
-  color: white;
+  /* color: white; */
   text-align: center;
   padding: 5px 26px;
   text-decoration: none;
