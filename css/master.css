@@ -18,6 +18,9 @@ body{
 }
 .center{
   text-align: center;
+  /* margin:auto; */
+}
+.auto{
   margin:auto;
 }
 .digitalBody h1, .digitalBody a,.digitalBody a:visited{
@@ -97,6 +100,7 @@ th{
 #artist-statement{
   width:700px;
   font-size: 14pt;
+  text-align: left;
   /* letter-spacing:0.3px; */
 }
 #cv{
@@ -198,6 +202,7 @@ th{
   z-index: -1;
   /* height:400px; */
   height:350px;
+  text-align: left;
 
 }
 .nav{
@@ -237,10 +242,9 @@ th{
 }
 #house-writeup{
   width:1000px;
-    margin:auto;
   margin-bottom:30px;
   text-align: left;
-
+  margin:auto;
 }
 
 li {
