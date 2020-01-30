@@ -1,22 +1,50 @@
 body{
   background-color: white;
   color:black;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   background-image:url("https://en.wikipedia.org/wiki/Ochsenheimeria_taurella#/media/File:Ypsolophidae_-_Ochsenheimeria_taurella_(female).JPG");
   margin:0;
   padding:0;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content:space-around; */
+  font-size:20px;
 }
 .digitalBody{
   background-color: black;
   color:white;
+  /* text-align: center; */
 }
-.digitalBody h1, .digitalBody a{
+.center{
+  text-align: center;
+  margin:auto;
+}
+.digitalBody h1, .digitalBody a,.digitalBody a:visited{
   color:white;
 }
-.home{
-  background-color: white;
+.physicalBody,.digitalBody{
+  text-align: center;
 }
+.physicalBody .art-label,.digitalBody .art-label{
+  text-align:left;
+  margin:auto;
+  width:800px;
+}
+
+.physicalBody img, .physicalBody iframe, .digitalBody img, .digitalBody iframe{
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+.flexcenter{
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+}
+/* .home{
+  background-color: white;
+} */
 h1,h2,h3{
   letter-spacing: 2px;
   font-weight: lighter;
@@ -25,7 +53,13 @@ h1{
   text-align: center;
   letter-spacing: 4px;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 80px;
+
+}
+h4{
+  font-size: 50px;
+  font-style: italic;
 }
 .yc{
     text-decoration:none;
@@ -62,6 +96,7 @@ th{
 }
 #artist-statement{
   width:700px;
+  font-size: 14pt;
   /* letter-spacing:0.3px; */
 }
 #cv{
@@ -85,6 +120,9 @@ th{
 
 .floatright{
   float:right;
+}
+.floatleft{
+  float:left;
 }
 
 #content{
@@ -175,13 +213,19 @@ th{
 .art-label{
   font-style:italic;
   width:800px;
+  font-size: 30px;
+  margin:auto;
 }
+
 .materials{
   font-style: normal;
 }
 
 .drawing{
   margin-bottom:80px;
+}
+.drawings img{
+  margin-bottom:100px;
 }
 
 .image-display img{
@@ -193,7 +237,10 @@ th{
 }
 #house-writeup{
   width:1000px;
+    margin:auto;
   margin-bottom:30px;
+  text-align: left;
+
 }
 
 li {
@@ -212,27 +259,19 @@ li a, workBtn {
 li a:hover, .dropdown:hover .dropbtn {
   background-color: blue;
 }
-li.dropdown {
-  display: inline-block;
-}
-.dropdown-content {
-  display: block;
-  position: absolute;
-  min-width: 160px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-  z-index: 1;
-}
-.dropdown-content a,{
+
+
+/* .dropdown-content a,{
   color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-}
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {
+} */
+/* .dropdown-content a:hover {background-color: #f1f1f1;} */
+/* .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 
 
