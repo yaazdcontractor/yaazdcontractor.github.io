@@ -1,8 +1,12 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+
 body{
   background-color: white;
   color:black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Inter',sans-serif;
+  font-weight:  500;
   background-image:url("https://en.wikipedia.org/wiki/Ochsenheimeria_taurella#/media/File:Ypsolophidae_-_Ochsenheimeria_taurella_(female).JPG");
   margin:0;
   padding:0;
@@ -45,20 +49,23 @@ body{
   display: flex;
   justify-content: space-around;
 }
-/* .home{
-  background-color: white;
-} */
+.home h1{
+  color:blue;
+}
 h1,h2,h3{
   letter-spacing: 2px;
   font-weight: lighter;
 }
 h1{
   text-align: center;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   text-decoration: none;
-  font-family: 'Roboto Mono', sans-serif;
-  font-size: 80px;
-
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  font-weight: 800;
+}
+h2{
+  font-weight:200;
 }
 h4{
   font-size: 50px;
@@ -71,6 +78,7 @@ h4{
 h3{
   margin-top:10px;
   margin-bottom:0px;
+  font-weight: 200;
 }
 a{
   /* color:green; */
@@ -99,8 +107,9 @@ th{
 }
 #artist-statement{
   width:700px;
-  font-size: 14pt;
+  font-size: 13pt;
   text-align: left;
+  font-weight: 300;
   /* letter-spacing:0.3px; */
 }
 #cv{
@@ -186,6 +195,7 @@ th{
 }
 #work-container a:hover{
   background-color: blue;
+  color:white;
 }
 
 .work-section{
@@ -262,6 +272,7 @@ li a, workBtn {
 }
 li a:hover, .dropdown:hover .dropbtn {
   background-color: blue;
+  color:white;
 }
 
 
