@@ -8,6 +8,7 @@ function setup() {
 }
 
 function draw() {
+  resizeCanvas(windowWidth, windowHeight);
   j+=0.015;
   background(0);
 
@@ -19,7 +20,7 @@ function draw() {
   // let xoff = yoff; // Option #2: 1D Noise
 
   // Iterate over horizontal pixels
-  for (let x = 0; x <= width; x += 5) {
+  for (let x = 0; x <= width; x += 15) {
     // Calculate a y value according to noise, map to
 
     // Option #1: 2D Noise
@@ -30,7 +31,7 @@ function draw() {
 
     // Set the vertex
     vertex(x, y+250-(sin(j*2)*50));
-    vertex(x*1.2, y+300-(sin(j)*50));
+    // vertex(x*1.2, y+300-(sin(j)*50));
     // Increment x dimension for noise
     xoff += 0.05;
   }

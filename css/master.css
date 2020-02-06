@@ -140,7 +140,7 @@ th{
 
 #content{
   /* margin-left: 40px; */
-  margin-left: 60px;
+  /* margin-left: 60px; */
   /* mix-blend-mode: exclusion; */
 }
 
@@ -230,10 +230,12 @@ th{
   width:800px;
   font-size: 30px;
   margin:auto;
+
 }
 
 .materials{
   font-style: normal;
+  text-align: center;
 }
 
 .drawing{
